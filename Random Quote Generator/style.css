@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+button {
+    padding: 10px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+#quote {
+    font-size: 35px;
+    margin-top: 20px;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("image/success1.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    z-index: -1;
+  }
